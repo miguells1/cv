@@ -4,14 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Miguel's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="content">
   <table cellspacing="20px">
     <tr>
       <td>
-        <a href="https://www.linkedin.com/in/miguells1/" target="_blank"><img src="images/miguel.jpeg"
-            style="width: 200px;height: 200px;" alt="Miguel profile picture"></a>
+        <a id="profilepic" href="https://www.linkedin.com/in/miguells1/" target="_blank">
+          <img src="images/miguel.jpeg" alt="Miguel profile picture">
+        </a>
       </td>
       <td>
         <h1>Miguel Leite</h1>
@@ -24,9 +26,10 @@
       </td>
     </tr>
   </table>
-  <hr size="2px" color="black">
+  <br>
+  <hr>
   <h3>Education</h3>
-  <ul>
+  <ul class="uleducation">
     <li><a href="https://www.eca.usp.br/ctr/curso-superior-do-audiovisual" target="_blank">2019 - Curso Superior do
         Audiovisual - ECA/USP</a></li>
     <li><a href="https://hotmart.com/pt-br/marketplace/produtos/jornada-da-lideranca-2/I43497893E" target="_blank">2021
@@ -36,20 +39,20 @@
   </ul>
   <hr>
   <h3>Work Experience</h3>
-  <table border="1px">
+  <table class="tablework">
     <thead>
-      <th>Year</th>
-      <th>Job</th>
+      <th class="thwork">Period</th>
+      <th class="thwork">Ocupation</th>
     </thead>
     <tbody>
-      <tr>
-        <td>2019-2022</td>
-        <td>Gama Academy</td>
+      <tr class="trwork">
+        <td class="tdwork yearwork">2019-2022</td>
+        <td class="tdwork">Gama Academy</td>
       </tr>
-      <tr>
-        <td></td>
-        <td>
-          <ul>
+      <tr class="trwork">
+        <td class="tdwork"></td>
+        <td class="tdwork">
+          <ul class="ulgama">
             <li>set/19 - Videomaker</li>
             <li>jan/20 - Video Producer</li>
             <li>nov/20 - Sr Video Producer</li>
@@ -57,55 +60,56 @@
           </ul>
         </td>
       </tr>
-      <tr>
-        <td>2012-present</td>
-        <td>Director of Photography</td>
+      <tr class="trwork">
+        <td class="tdwork yearwork">2012-present</td>
+        <td class="tdwork">Director of Photography</td>
       </tr>
     </tbody>
   </table>
   <br>
   <hr>
   <h3>Main Skills</h3>
-  <table cellspacing="10px">
+  <table>
     <thead>
-      <th>Hard Skills</th>
-      <th></th>
-      <th>Soft Skills</th>
-      <th></th>
+      <th class="thskills">Hard Skills</th>
+      <th class="thskills"></th>
+      <th class="thskills">Soft Skills</th>
+      <th class="thskills"></th>
     </thead>
     <tr>
-      <td>Photography</td>
-      <td>⭐⭐⭐⭐⭐</td>
-      <td>Communication</td>
-      <td>⭐⭐⭐⭐⭐</td>
+      <td class="tdskills">Photography</td>
+      <td class="tdskills">⭐⭐⭐⭐⭐</td>
+      <td class="tdskills">Communication</td>
+      <td class="tdskills">⭐⭐⭐⭐⭐</td>
     </tr>
     <tr>
-      <td>Adobe Suite</td>
-      <td>⭐⭐⭐⭐</td>
-      <td>Efficiency</td>
-      <td>⭐⭐⭐⭐⭐</td>
+      <td class="tdskills">Adobe Suite</td>
+      <td class="tdskills">⭐⭐⭐⭐</td>
+      <td class="tdskills">Efficiency</td>
+      <td class="tdskills">⭐⭐⭐⭐⭐</td>
     </tr>
     <tr>
-      <td>Google Suite</td>
-      <td>⭐⭐⭐⭐</td>
-      <td>Teamwork</td>
-      <td>⭐⭐⭐⭐⭐</td>
+      <td class="tdskills">Google Suite</td>
+      <td class="tdskills">⭐⭐⭐⭐</td>
+      <td class="tdskills">Teamwork</td>
+      <td class="tdskills">⭐⭐⭐⭐⭐</td>
     </tr>
-      <td>Office Suite</td>
-      <td>⭐⭐</td>
-      <td>Problem-solving</td>
-      <td>⭐⭐⭐⭐</td>
+    <td class="tdskills">Office Suite</td>
+    <td class="tdskills">⭐⭐</td>
+    <td class="tdskills">Problem-solving</td>
+    <td class="tdskills">⭐⭐⭐⭐</td>
     <tr>
-      <td>Web Development</td>
-      <td>⭐</td>
-      <td>Leadership</td>
-      <td>⭐⭐⭐</td>
+      <td class="tdskills">Web Development</td>
+      <td class="tdskills">⭐</td>
+      <td class="tdskills">Leadership</td>
+      <td class="tdskills">⭐⭐⭐</td>
     </tr>
   </table>
   <br>
-  <hr size="2px" color="black">
-  <a href="contactme.html">Contact Me</a>
-  <a href="hobbies.html">My Hobbies</a>
+  <hr>
+  <br>
+  <a class="footer" href="contactme.html">Contact Me</a>
+  <a class="footer" href="hobbies.html">My Hobbies</a>
 </body>
 
 </html>
